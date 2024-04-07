@@ -359,7 +359,7 @@ const LetsTalk = () => {
           />
           <button
             type="submit"
-            className="text-2xl border-white-1 border px-12 py-3 mt-8  rounded-full"
+            className="text-2xl border-white-1 border px-12 py-3 mt-8 font-bold rounded-full"
           >
             SUBMIT
           </button>

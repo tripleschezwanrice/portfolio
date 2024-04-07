@@ -7,8 +7,8 @@ const page = () => {
 
   return (
     <div className={`w-full bg-white font-normal text-black ${poppins.className}`}>
-      <div className=" md:h-screen  overflow-hidden">
-      <Image src='/Vritti_Assets/v1.png' height={2024} width={2024} alt=""/>
+      <div className=" max-h-screen  overflow-hidden">
+      <Image src='/Covers/Vritti.png' height={4000} width={2656} alt=""/>
 
       </div>
       <div className="md:p-12 p-6">
@@ -25,7 +25,7 @@ const page = () => {
       <div className="grid grid-cols-3 my-16 w-full items-baseline">
         <div>
           <p className="font-bold text-gray-500">ROLE</p>
-          <p>Solo student project</p>
+          <p>Solo student <br className="sm:hidden"/>project</p>
         </div>
 
         <div className="flex flex-col justify-center ">
@@ -39,9 +39,9 @@ const page = () => {
         </div>
 
       </div>
-      <div className="grid grid-cols-10 items-center">
-        <div className="col-span-6">
-          <p className="text-4xl font-bold mb-8">The Challenge or Problem Statement</p>
+      <div className="sm:grid flex flex-col grid-cols-10 items-center">
+        <div className="col-span-10">
+          <p className="text-4xl  font-bold mb-8">The Challenge or Problem Statement</p>
           <p className="mb-6">
             Rural women face significant barriers in accessing career and hobby
             guidance and counselling services.
@@ -56,17 +56,11 @@ const page = () => {
           </p>
         </div>
 
-        <Image
-          src="/hero_image.png"
-          height={720}
-          width={720}
-          alt=""
-          className="col-span-4 p-12"
-        />
+       
       </div>
 
 
-      <div className="mt-24 flex flex-col gap-8">
+      <div className="md:mt-24 mt-12 flex flex-col gap-8">
         <p className="text-4xl font-bold">Goals</p>
         <p>
           Create a purpose-driven website that offers career and hobby guidance
@@ -82,7 +76,7 @@ const page = () => {
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12  ">
         <p className="text-4xl font-bold mb-12">Overview</p>
         <Image
           src="/Vritti_Assets/Process Timeline.png"
@@ -95,7 +89,7 @@ const page = () => {
 
 
 
-      <div className="mt-36 flex flex-col gap-8">
+      <div className="md:mt-24 mt-12 flex flex-col gap-8">
         <p className="text-4xl font-bold">Reaseach and Analysis</p>
         <p>
           In-depth primary interviews were conducted as an essential part of the
@@ -139,7 +133,7 @@ const page = () => {
         />
       </div>
       <div>
-        <p className="font-bold mt-12 mb-4">Findings</p>
+        <p className="font-bold md:mt-24 mt-12 mb-4">Findings</p>
         <p>
           The primary interviews and contextual enquiry uncovered several key
           findings:
@@ -214,13 +208,8 @@ const page = () => {
         </ul>
       </div>
 
-      <div className=" mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="font-bold text-4xl mb-8">User Persona</p>
-        <p>
-          Write the key tasks that your users can do by regarding your study.
-          Ensure your user persona contains the key tasks that your users can do
-          by regarding your study, users’ priorities, Users’ pain points
-        </p>
 
         <div className="md:flex">
           <Image
@@ -240,7 +229,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className="mb-12 mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="font-bold text-4xl">Final Actionable Insights</p>
         <ul className=" mt-8 gap-3 flex flex-col">
           <li>
@@ -271,7 +260,7 @@ const page = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-36 ">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold">Solution</p>
         <p className="my-6">
           the solution is to design a career counselling website tailored to
@@ -303,7 +292,7 @@ const page = () => {
           className="col-span-4 w-full  mt-12 lg:px-44 md:px-30 px-12"
         />
       </div>
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Information Architecture</p>
         <p>
           The key is shaping an information architecture that elegantly
@@ -318,7 +307,7 @@ const page = () => {
           className="col-span-4 w-full md:p-12 mt-12"
         />
       </div>
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">User Journey</p>
         <p>Crafting a user journey that seamlessly guides individuals through a personalized career quiz, understanding their unique
 aspirations and leading them to tailored results for their professional path</p>
@@ -330,7 +319,7 @@ aspirations and leading them to tailored results for their professional path</p>
            className="col-span-4 w-full md:p-12 mt-12"
         />
       </div>
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">User Flow</p>
         <p>Optimizing the user flow of the personalised career quiz, providing a clear and gradual progression from question to question,
 fostering a smooth and insightful journey</p>
@@ -343,7 +332,7 @@ fostering a smooth and insightful journey</p>
         />
       </div>
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">User Case</p>
         <p>Exploring two possible user cases, delving into the unique journey of individuals engaging with the platform, to inform tailored
 design solutions:</p>
@@ -365,7 +354,7 @@ design solutions:</p>
 
 </div>
       </div>
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Concepts and Wireframes</p>
         <p className="mb-6">
           In the wireframing process for the counselling app, paramount focus is
@@ -391,7 +380,7 @@ design solutions:</p>
           className="col-span-4 w-full mt-12 md:p-12"
         />
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Visual Design and Prototype</p>
         <p>
           The next plan of action includes creating colour palettes and
@@ -403,7 +392,7 @@ design solutions:</p>
             height={4096}
           width={4096}
           alt=""
-          className="col-span-4 w-full p-12"
+          className="col-span-4 w-full md:p-12 p-4 mt-4"
         />
        <Image
             src="/Vritti_Assets/vv7.png"
@@ -443,11 +432,12 @@ design solutions:</p>
       </div>
       
 
-      <div className="mt-36">
-        <p className="text-4xl font-bold">Prototype</p>
+      <div className="md:mt-24 mt-12">
+        <p className="text-4xl font-bold mb-8">Prototype</p>
+        <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://www.figma.com/file/OSBHuf4Eiq0HZx43EhldzI?embed_host=share&kind=file&mode=design&node-id=257%3A1482&t=OZBSyDyItO1XfCou-1&type=design&viewer=1" allowFullScreen  className="flex mx-auto max-w-full"></iframe>
       </div>
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Feedback</p>
         <p className="mb-6">Feedback received by mentors in the field mainly suggested expanding the platform from web-based, to more familiar channels 
 for the user group such as WhatsApp and phone calls. This feedback has been taken into consideration and is in works to be 
@@ -458,7 +448,7 @@ cross-verification with language experts are essential before full implementatio
       </div>
 
 
-      <div className="mt-36 mb-28">
+      <div className="md:mt-24 mt-12 mb-28">
         <p className="text-4xl font-bold mb-6">Challenges and Next Step</p>
         <p className="mb-6">Addressing the unique needs of a diverse user base, including those less technologically adept, posed a challenge in striking the 
 right balance between simplicity and functionality. Ensuring the app's cultural sensitivity and relevance for users in non-urban 
@@ -468,12 +458,12 @@ strategic problem-solving and commitment</p>
 <p className="mb-6">Navigating these challenges contributed to the growth and refinement of the project, fostering a more robust and user-centric 
 solution. The next steps are as follows:</p>
 <div className="grid grid-cols-2">
-    <div className="col-span-1 p-4">
+    <div className="col-span-1 pr-2">
         <strong className="mb-2">1. Incorporate features on feedback</strong>
         <p>Features like language options, integration to phone 
 services like calls, SMS and WhatsApp</p>
     </div>
-    <div className="col-span-1 p-4">
+    <div className="col-span-1 pl-2">
         <strong className="mb-2">2. Extensive user testing </strong>
         <p>Extensive user testing will be conducted and used to iterate 
 on the website</p>

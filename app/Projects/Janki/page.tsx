@@ -7,11 +7,11 @@ const page = () => {
 
   return (
     <div className={`w-full bg-white font-normal text-black ${poppins.className}`}>
-      <div className="md:h-screen overflow-hidden">
+      <div className="max-h-screen overflow-hidden">
       <Image
-          src="/Akasa_Assets/a1.png"
-          height={4080}
-          width={4080}
+          src="/Covers/Janki.png"
+          height={4000}
+          width={2656}
           alt=""
           className=""
         />
@@ -28,7 +28,7 @@ const page = () => {
       <div className="grid grid-cols-3 my-16 w-full items-baseline">
         <div>
           <p className="font-bold text-gray-500">ROLE</p>
-          <p>Intern: Solo project</p>
+          <p>Intern: Solo <br className="lg:hidden"/>project</p>
         </div>
 
         <div className="flex flex-col justify-center ">
@@ -42,7 +42,7 @@ const page = () => {
         </div>
       </div>
       <div className="grid grid-cols-10 items-center">
-        <div className="col-span-6">
+        <div className="col-span-10">
           <p className="text-4xl font-bold mb-8">Areas for Improvement  </p>
           <p className="mb-6">
           The current website exhibits opportunities for enhancement, notably in its aesthetic appeal, which could benefit from a more modern design. To fortify the brand's premium image, there's room to infuse a touch of luxury into the visual presentation. The redesign aims to go beyond visual enhancements, strategically focusing on optimizing information architecture, functionality, and the overall UX to create a more engaging and user-friendly online environment.
@@ -59,7 +59,7 @@ const page = () => {
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-12">Industry trends</p>
             <p>A comprehensive examination of the digital platforms of leading luxury jewelry brands underscores prevailing design trends that significantly influence user expectations. Notably, these industry frontrunners prioritize elegance and sophistication through clean layouts, high-quality visuals, and a harmonious color palette. The strategic implementation of whitespace adds a touch of luxury and exclusivity to their online presence. Moreover, a rising trend involves incorporating models, their facial expressions, and curated outfits to enhance the overall presentation, placing jewelry within a lifestyle context.
 </p>
@@ -68,7 +68,7 @@ const page = () => {
 
 
 
-      <div className="mt-36 flex flex-col gap-8">
+      <div className="md:mt-24 mt-12 flex flex-col gap-8">
         <p className="text-4xl font-bold">Goals</p>
         <p>
         The goal is to create a visually compelling, user-friendly website that resonates with a diverse audience while maintaining a touch of luxury. while steering towards a much more enhanced user experience.
@@ -76,7 +76,7 @@ const page = () => {
       </div>
 
       
-      <div className="mt-36 flex flex-col gap-8">
+      <div className="md:mt-24 mt-12 flex flex-col gap-8">
         <p className="text-4xl font-bold">The Redesign</p>
         <Image
         src="/Janki_Assets/Redesign.png"

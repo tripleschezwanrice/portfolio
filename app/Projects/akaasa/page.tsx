@@ -7,16 +7,18 @@ const page = () => {
 
   return (
     <div className={`w-full bg-white font-normal text-black ${poppins.className}`}>
-      <div className="md:h-screen overflow-hidden">
+      <div className="max-h-screen overflow-hidden">
+
+
       <Image
-          src="/Akasa_Assets/a1.png"
-          height={4080}
-          width={4080}
+          src="/Covers/Akasa.png"
+          height={4000}
+          width={2656}
           alt=""
           className=""
         />
       </div>
-      <div className="lg:p-16 p-4">
+      <div className="md:p-16 p-4">
 
       
       <div>
@@ -26,12 +28,13 @@ const page = () => {
         Project overview: An app concept to aid small businesses financial management
         </p>
       </div>
-      <div className="grid grid-cols-3 my-16 w-full items-baseline">
+      <div className="grid  grid-cols-3 my-16 w-full items-baseline">
         <div>
           <p className="font-bold text-gray-500">ROLE</p>
-          <p>Group student project where I focused on:
+          <p className="md:flex hidden">Group student project where I focused on:
 Research, ideation, wireframing,
 prototyping, animations</p>
+<p className="md:hidden">Group student <br /> project</p>
         </div>
 
         <div className="flex flex-col justify-center ">
@@ -44,7 +47,7 @@ prototyping, animations</p>
           <p>12- 22 September 2023</p>
         </div>
       </div>
-      <div className="grid grid-cols-10 items-center">
+      <div className="md:grid grid-cols-10 flex flex-col items-center">
         <div className="col-span-6">
           <p className="text-4xl font-bold mb-8">The Challenge or Problem Statement</p>
           <p className="mb-6">
@@ -59,18 +62,10 @@ causing missed opportunities for growth due to lack of proper tailored
 financial insights.
           </p>
         </div>
-
-        <Image
-          src="/Voyageur_Assets/Reasearch.png"
-          height={2048}
-          width={2048}
-          alt=""
-          className="col-span-4 p-12"
-        />
       </div>
 
 
-      <div className="mt-24 flex flex-col gap-8">
+      <div className="md:mt-12 mt-12 flex flex-col gap-8">
         <p className="text-4xl font-bold">Goals</p>
         <p>
         Design an app with a dual focus: delivering optimised financial insights and streamlining the process of tracking finances,
@@ -83,7 +78,7 @@ maximises profit, enhances decision-making, and streamlines operational tasks.
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-12">Overview</p>
         <Image
           src="/Vritti_Assets/Process Timeline.png"
@@ -97,7 +92,7 @@ maximises profit, enhances decision-making, and streamlines operational tasks.
 
 
 
-      <div className="mt-36 flex flex-col gap-8">
+      <div className="md:md:mt-24 mt-12 flex flex-col gap-8">
         <p className="text-4xl font-bold">Reaseach and Analysis</p>
         <p>
         In the first primary interviews, we talked to users who are small business owners and framed questions around what processes/
@@ -166,14 +161,22 @@ What cards are the most important to you, and which you don't consider. <br />
 
 Which cards play a vital role in generating revenue for your business. <br />
         </p>
-<div className="grid grid-cols-4 max-w-full items-center">
+<div className="md:grid md:grid-cols-4 max-w-full items-center hidden">
         <Image src='/Akasa_Assets/Untitled 3.png' height={2040} width={2040} alt="" className="scale-[80%]"/>
         <Image src='/Akasa_Assets/Untitled 4.png' height={2040} width={2040} alt="" className="scale-[80%]"/>
         <Image src='/Akasa_Assets/Untitled 5.png' height={2040} width={2040} alt="" className="scale-[80%]"/>
         <Image src='/Akasa_Assets/Untitled 9.png' height={2040} width={2040} alt="" className="scale-[80%]"/>
-
 </div>
-
+<div className="md:hidden grid-rows-2 grid">
+  <div className="grid grid-cols-2 row-span-1">
+        <Image src='/Akasa_Assets/Untitled 3.png' height={2040} width={2040} alt="" className="scale-[80%] col-span-1"/>
+        <Image src='/Akasa_Assets/Untitled 4.png' height={2040} width={2040} alt="" className="scale-[80%] col-span-1"/>
+  </div>
+  <div className="grid grid-cols-2 row-span-1">
+        <Image src='/Akasa_Assets/Untitled 5.png' height={2040} width={2040} alt="" className="scale-[80%] col-span-1"/>
+        <Image src='/Akasa_Assets/Untitled 9.png' height={2040} width={2040} alt="" className="scale-[80%]"/>
+  </div>
+</div>
       </div>
         <p className="font-bold">
           Findings:
@@ -210,7 +213,7 @@ the high markup of products to do so.
         </ul>
       </div>
 
-      <div className=" mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="font-bold text-4xl mb-8">User Persona</p>
         <p>
         Write the key tasks that your users can do by regarding your study. Ensure your user persona contains the key tasks that your
@@ -228,7 +231,7 @@ users can do by regarding your study, users priorities, Users' pain points
         </div>
       </div>
 
-      <div className="mb-12 mt-36">
+      <div className="mb-12 md:mt-24 mt-12">
         <p className="font-bold text-4xl">Final Actionable Insights</p>
         <ul className=" mt-8 gap-3 flex flex-col">
           <li>
@@ -248,7 +251,7 @@ inventory related </strong>
           </li>
         </ul>
       </div>
-      <div className="mt-36     ">
+      <div className="md:mt-24 mt-12     ">
         <p className="text-4xl font-bold">Solution</p>
         <p className="my-6">
         Design a simple, easy-to-navigate user interface for the finance app that seamlessly integrates special financial insights, robust
@@ -266,11 +269,11 @@ a focus on empowering users to make informed financial decisions.
           height={2040}
           width={2040}
           alt=""
-          className="col-span-4 scale-[80%] mx-auto p-12"
+          className="col-span-4 scale-[80%] mx-auto md:p-12"
         />
       </div>
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">User Journey</p>
         <p>Embarking on the app journey, users may find opportunities for enhanced simplicity in data input, easy-to-understand financial
 insights, efficient tracking and logging of orders and inventory, and the prospect of seamlessly resuming their tasks in one place
@@ -285,7 +288,7 @@ refinements and improved user satisfaction.</p>
         />
       </div>
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Information Architecture</p>
         <p>
         The key is to devise an information architecture that simplifies the user data structure, ensuring an intuitive journey through
@@ -296,12 +299,12 @@ insights, finances, order and product information.
           height={2040}
           width={2040}
           alt=""
-          className="col-span-4 lg:scale-[70%]"
+          className="col-span-4 md:p-12 px-4 py-8"
         />
       </div>
      
-      <div className="mt-36">
-        <p className="text-4xl font-bold mb-6">User FLow</p>
+      <div className="md:mt-24 mt-12">
+        <p className="text-4xl font-bold mb-6">User Flow</p>
         <p>Envisioning the app's user flow to streamline task completion through improved findability, memorability, and usability:
 </p>
         <Image
@@ -314,7 +317,7 @@ insights, finances, order and product information.
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Visual Design and Prototype</p>
         <p>
         The next plan of action includes colour palettes and typography that would help communicate the brand s identity and also give
@@ -325,16 +328,16 @@ the product an exciting feel.
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 mx-auto p-12"
+        className="col-span-4 mx-auto md:p-12 py-8"
       />
-      <p>Splash Animations</p>
+      <p className="py-4 font-bold">Splash Animations</p>
       
       <video id="video" loop muted autoPlay playsInline className="w-[360px] mx-auto">
-        <source src="/Akasa_Assets/AAKASA.mov" type="video/mp4" className=""/>
+        <source src="/Akasa_Assets/AAKASA.mov" type="video/mp4" className="m-4"/>
         Your browser does not support the video tag.
     </video>
      
-      <p>High FIdelity Design</p>
+      <p className="font-bold my-4">High Fidelity Design</p>
       <Image
         src="/Akasa_Assets/123.png"
         height={2040}
@@ -347,78 +350,82 @@ the product an exciting feel.
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain "
       />
       <Image
         src="/Akasa_Assets/2.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
      <Image
         src="/Akasa_Assets/3.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
        <Image
         src="/Akasa_Assets/4.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
       <Image
         src="/Akasa_Assets/5.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
      <Image
         src="/Akasa_Assets/6.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
        <Image
         src="/Akasa_Assets/7.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
       <Image
         src="/Akasa_Assets/8.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
      <Image
         src="/Akasa_Assets/9.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
       <Image
         src="/Akasa_Assets/10.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 px-12 lg:scale-[80%]"
+        className="col-span-4 h-screen object-contain"
       />
       </div>
 
-      <div className="mt-36">
-        <p className="text-4xl font-bold">Prototype</p>
+      <div className="md:mt-24 mt-12">
+        <p className="text-4xl font-bold mb-8">Prototype</p>
+        <div>
+        <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F4zodedjShmN7ezif9BTBgi%2FAkaasa%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3Dz8qdUUXmW2vjYU6n-1" allowFullScreen  className="flex mx-auto max-w-full"></iframe>
+</div>
+
       </div>
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Feedback</p>
         <p className="mb-6">
         In response to valuable feedback, efforts were dedicated to enhancing the colour scheme, particularly focusing on improving
@@ -440,7 +447,7 @@ aesthetics based on valuable input.
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12 mb-12">
         <p className="text-4xl font-bold mb-6">Challenges and Next Step</p>
         <p className="mb-6">During this case study, several challenges were encountered that contributed to the project's growth. Navigating the delicate
 balance between incorporating useful financial insights while ensuring user-friendly design posed a notable challenge.

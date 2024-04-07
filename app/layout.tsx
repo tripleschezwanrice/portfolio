@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <body className={`${syne.className} md:flex font-bold`}>
+    <body className={`${syne.className}  md:flex font-bold`}>
     <main className=' md:w-[20%]'>
       <Navbar/>
     </main>

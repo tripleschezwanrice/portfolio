@@ -7,16 +7,17 @@ const page = () => {
 
   return (
     <div className={`w-full bg-white font-normal text-black ${poppins.className}`}>
-     <div className="md:h-screen overflow-hidden">
+     <div className="overflow-hidden max-h-screen">
+    
       <Image
-          src="/Voyageur_Assets/hero.png"
-          height={2040}
-          width={2040}
+          src="/Covers/Voy.png"
+          height={4000}
+          width={2656}
           alt=""
           className=""
         />
       </div>
-      <div className="p-16">
+      <div className="md:p-16 p-4">
 
       
       <div>
@@ -43,8 +44,8 @@ budget management, and social connectivity
           <p>24-26 June 2023</p>
         </div>
       </div>
-      <div className="grid grid-cols-10 items-center">
-        <div className="col-span-6">
+      <div className="md:grid  flex flex-col grid-cols-10 items-center">
+        <div className="col-span-10">
           <p className="text-4xl font-bold mb-8">The Challenge or Problem Statement</p>
           <p className="mb-6">
           Travellers often grapple with the hassle of managing multiple apps for
@@ -57,14 +58,6 @@ encompassing platform, resulting in fragmented user experiences and
 time consuming processes.
           </p>
         </div>
-
-        <Image
-          src="/hero_image.png"
-          height={720}
-          width={720}
-          alt=""
-          className="col-span-4 p-12"
-        />
       </div>
 
 
@@ -81,7 +74,7 @@ related needs, so as to save time, money and for better convenience.
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-12">Overview</p>
         <Image
           src="/Vritti_Assets/Process Timeline.png"
@@ -94,7 +87,7 @@ related needs, so as to save time, money and for better convenience.
 
 
 
-      <div className="mt-36 flex flex-col gap-8">
+      <div className="md:mt-24 mt-12 flex flex-col gap-8">
         <p className="text-4xl font-bold">Reaseach and Analysis</p>
         <p>
         User research was conducted through an online survey. This graph shows the participant’s motivations when asked about using an
@@ -135,7 +128,7 @@ planning so as to save money and time.
         </div>
 
 
-        <div className="mt-36">
+        <div className="md:mt-24 mt-12 ">
             <p className="text-4xl font-bold">Competitor analysis</p>
             <p>Craft a user journey that seamlessly guides individuals through a personalized career quiz, understanding their unique aspirations
 and leading them to tailored results for their professional path</p>
@@ -150,7 +143,7 @@ and leading them to tailored results for their professional path</p>
 
 
 
-        <div className=" mt-36">
+        <div className=" md:mt-24 mt-12 ">
         <p className="font-bold text-4xl mb-8">User Persona</p>
         <p>
         Write the key tasks that your users can do by regarding your study. Ensure your user persona contains the key tasks that your
@@ -169,7 +162,7 @@ users can do by regarding your study, users’ priorities, Users’ pain points
       </div>
 
     
-      <div className="mb-12 mt-36">
+      <div className="mb-12 md:mt-24 mt-12">
         <p className="font-bold text-4xl">Final Actionable Insights</p>
         <ul className=" mt-8 gap-3 flex flex-col">
           <li>
@@ -192,7 +185,7 @@ their major pain point.
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold">Solution</p>
         <p className="my-6">
         Streamlining the travel experience, our solution integrates trip research and booking functionalities within a single, user centric
@@ -210,7 +203,7 @@ features to easily discover and connect with fellow travellers, creating a vibra
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Information Architecture</p>
         <p>
         Shape an information architecture that elegantly structures the personalised career quiz, ensuring an intuitive journey through
@@ -225,7 +218,7 @@ questions, results, and resources.
         />
       </div>
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">User Flow</p>
         <p>Optimize the user flow of the personalized career quiz, providing a clear and gradual progression from question to question,
 fostering a smooth and insightful journey</p>
@@ -239,7 +232,7 @@ fostering a smooth and insightful journey</p>
       </div>
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Visual Design and Prototype</p>
         <p>
         The next plan of action was to create colour palettes and typography that would help communicate the brand’s identity and also
@@ -278,8 +271,9 @@ give the product an exciting feel
       </div>
       </div>
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold">Prototype</p>
+        <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://xd.adobe.com/embed/516bf086-e5c8-4382-a387-d96771e1f395-0438/?fullscreen" allowFullScreen  className="flex mx-auto max-w-full my-4"></iframe>
       </div> 
 
 
@@ -309,7 +303,7 @@ visualizations, charts, or bullet points of findings is a good way of showcasing
 
 
 
-      <div className="mt-36">
+      <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Challenges and Conclusion</p>
         <p className="mb-6">Not everything went as planned <br />  
 
@@ -318,8 +312,8 @@ to come to a compromise</p>
 
 <div className="grid grid-cols-2">
     <div className="col-span-1">
-        <strong className="mb-2">1. something that didn’t go our way</strong>
-        <p>How did you compromise instead? What did you learn
+        <strong className="mb-2 mr-1">1. something that didn’t go our way</strong>
+        <p className="mr-1">How did you compromise instead? What did you learn
 from this experience? How can you apply this to future
 projects?
 <br />
@@ -327,8 +321,8 @@ projects?
 Wrap it all up with a short conclusion</p>
     </div>
     <div className="col-span-1">
-        <strong className="mb-2">2. something that didn’t go our way</strong>
-        <p>How did you compromise instead? What did you learn from
+        <strong className="mb-2 ml-1">2. something that didn’t go our way</strong>
+        <p className="ml-1">How did you compromise instead? What did you learn from
 this experience? How can you apply this to future projects?</p>
     </div>
 </div>

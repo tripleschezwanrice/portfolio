@@ -6,15 +6,15 @@ const page = () => {
 
   return (
     <div className={`w-full bg-white font-normal text-black ${poppins.className}`}>
-      <div className="lg:h-screen overflow-hidden"><Image src="/Spell_Hut_Assets/Spell-Header.png" height={2080} width={2080} alt="" /></div>
-      <div className="p-16">
+      <div className="max-h-screen overflow-hidden"><Image src="/Covers/Habit.png" height={4000} width={2656} alt="" /></div>
+      <div className="lg:p-16 p-4">
 
       
       <div>
         <p className="text-xl">Ananya Singh</p>
         <p className="text-6xl font-bold my-4">Habit Hut (under progress)</p>
         <p>
-        Project overview: Designing the UX of a kid’s habit building application        </p>
+        Project overview: Designing the UX of a kid's habit building application        </p>
       </div>
       <div className="grid grid-cols-3 my-16 w-full">
         <div>

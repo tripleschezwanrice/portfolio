@@ -316,7 +316,7 @@ const LetsTalk = () => {
 
       
 
-          <a href="https://drive.google.com/file/d/1jVUE2mDMI9PUuphuW4ikC4QNsmwhDyfo/view" target="_blank" className="text-4xl border-2 rounded-full w-[30%] flex justify-center mx-auto py-4 px-4 text-center items-center z-50">VIEW RESUME</a>
+          <a href="https://drive.google.com/file/d/1jVUE2mDMI9PUuphuW4ikC4QNsmwhDyfo/view" target="_blank" className="md:text-4xl text-[4vw] border-2 rounded-full w-fit flex justify-center mx-auto py-4 px-4 text-center items-center z-50">VIEW RESUME</a>
 
       
 

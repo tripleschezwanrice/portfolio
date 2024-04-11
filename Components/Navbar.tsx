@@ -24,7 +24,7 @@ export default function SideNav() {
   };
 
   return (
-    <div className="fixed z-50 md:w-[20%] w-full flex md:h-screen md:flex-col md:py-8  md:my-auto mx-auto justify-between md:p-4 p-8 lg:text-lg bg-transparent md:bg-black">
+    <div className="fixed z-[9999] md:w-[20%] w-full flex md:h-screen md:flex-col md:py-8  md:my-auto mx-auto justify-between md:p-4 p-8 lg:text-lg bg-transparent md:bg-black">
       <div className="flex-col gap-2 md:flex hidden">
         <Link
           href="/"
@@ -113,13 +113,13 @@ export default function SideNav() {
           <ArrowUpRightIcon className="w-4 group " />
         </Link>
 
-        <Link
-          href="/"
+        <a
+          href="mailto:varunparmarwork@gmail.com"
           className="border-t-2 border-gray-800  pt-3 flex gap-2 items-center  hover:gap-3 transition-all"
         >
           Email
           <ArrowUpRightIcon className="w-4" />
-        </Link>
+        </a>
       </div>
 
       <div className="md:hidden flex">

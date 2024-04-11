@@ -48,7 +48,7 @@ prototyping, animations</p>
         </div>
       </div>
       <div className="md:grid grid-cols-10 flex flex-col items-center">
-        <div className="col-span-6">
+        <div className="col-span-10">
           <p className="text-4xl font-bold mb-8">The Challenge or Problem Statement</p>
           <p className="mb-6">
           Small business owners who work solo or in smaller groups, often do not
@@ -119,7 +119,7 @@ The key question being How much do you consider [card] in running the business?â
           height={2040}
           width={2040}
           alt=""
-          className="col-span-4 w-[480px] mx-auto p-12"
+          className="col-span-4 w-[480px] mx-auto md:p-12"
         />
      
       </div>
@@ -350,70 +350,70 @@ the product an exciting feel.
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain "
+        className="col-span-4 max-h-screen object-contain "
       />
       <Image
         src="/Akasa_Assets/2.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
      <Image
         src="/Akasa_Assets/3.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
        <Image
         src="/Akasa_Assets/4.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
       <Image
         src="/Akasa_Assets/5.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
      <Image
         src="/Akasa_Assets/6.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
        <Image
         src="/Akasa_Assets/7.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
       <Image
         src="/Akasa_Assets/8.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
      <Image
         src="/Akasa_Assets/9.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
       <Image
         src="/Akasa_Assets/10.png"
         height={2040}
         width={2040}
         alt=""
-        className="col-span-4 h-screen object-contain"
+        className="col-span-4 max-h-screen object-contain"
       />
       </div>
 

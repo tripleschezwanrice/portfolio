@@ -156,7 +156,7 @@ users can do by regarding your study, users’ priorities, Users’ pain points
           height={2048}
           width={2048}
           alt=""
-          className="p-6 w-[60%] mx-auto mt-12"
+          className="p-6 lg:w-[60%] mx-auto lg:mt-12 mt-6"
         />
         </div>
       </div>

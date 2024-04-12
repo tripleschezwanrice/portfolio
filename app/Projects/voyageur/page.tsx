@@ -18,7 +18,7 @@ const page = () => {
     />
 </div>
 
-      <div className="md:p-16 p-4">
+      <div className="lg:p-16 p-4">
 
       
       <div>
@@ -29,7 +29,7 @@ const page = () => {
 budget management, and social connectivity
         </p>
       </div>
-      <div className="grid grid-cols-3 my-16 w-full">
+      <div className="grid  grid-cols-3 my-16 w-full items-baseline">
         <div>
           <p className="font-bold text-gray-500">ROLE</p>
           <p>Solo Project</p>
@@ -277,58 +277,6 @@ give the product an exciting feel
         <iframe style={{border: '1px solid rgba(0, 0, 0, 0.1)'}} width="800" height="450" src="https://xd.adobe.com/embed/516bf086-e5c8-4382-a387-d96771e1f395-0438/?fullscreen" allowFullScreen  className="flex mx-auto max-w-full my-4"></iframe>
       </div> 
 
-
-       <div>
-        <p className="font-bold">Test: Validation, Usability, Feedback
-</p>
-<p>Designers who include a feedback, testing, or validation research phase will have designs that are more closely aligned with a real
-user or customer’s needs and goals.</p>
-<p>Discuss your experience of testing or gathering feedback on your interaction with users and/or customers. Including photos, data
-visualizations, charts, or bullet points of findings is a good way of showcasing your work.</p>
-       </div>
-
-   
-      
-     
-
-      
-
-      
-     
-      
-
-
-      
-
-     
-
-
-
-      <div className="md:mt-24 mt-12">
-        <p className="text-4xl font-bold mb-6">Challenges and Conclusion</p>
-        <p className="mb-6">Not everything went as planned <br />  
-
-I’m sure not every project goes 100% as planned. List some things that didn’t go your team’s way and how you worked with others
-to come to a compromise</p>
-
-<div className="grid grid-cols-2">
-    <div className="col-span-1">
-        <strong className="mb-2 mr-1">1. something that didn’t go our way</strong>
-        <p className="mr-1">How did you compromise instead? What did you learn
-from this experience? How can you apply this to future
-projects?
-<br />
-<br />
-Wrap it all up with a short conclusion</p>
-    </div>
-    <div className="col-span-1">
-        <strong className="mb-2 ml-1">2. something that didn’t go our way</strong>
-        <p className="ml-1">How did you compromise instead? What did you learn from
-this experience? How can you apply this to future projects?</p>
-    </div>
-</div>
-      </div>
-     
       </div>
     </div>
   );

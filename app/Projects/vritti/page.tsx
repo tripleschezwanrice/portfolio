@@ -7,11 +7,17 @@ const page = () => {
 
   return (
     <div className={`w-full bg-white font-normal text-black ${poppins.className}`}>
-      <div className=" max-h-screen  overflow-hidden">
-      <Image src='/Covers/Vritti.png' height={4000} width={2656} alt=""/>
-
-      </div>
-      <div className="md:p-12 p-6">
+      <div className="md:relative overflow-hidden   md:min-h-screen md:max-h-screen">
+    <Image
+        src="/Covers/Vritti.png"
+        alt="Your image description"
+        className="md:absolute inset-0 w-full h-full object-cover"
+        width={2080}
+        height={2080}
+      
+    />
+</div>
+      <div className="lg:p-12 p-4">
 
       
       <div>

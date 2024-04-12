@@ -53,7 +53,7 @@ export default function SideNav() {
           <HeartIcon className="w-5" />
           <div className="relative hover-underline-animation">
       <span className={clsx("absolute inset-x-0 bottom-0 ", {
-        "h-[1px] bg-white": pathname === "/Projects",
+        "h-[1px] bg-white": pathname.startsWith("/Projects"),
         // Add other conditional classes as needed
       })}></span>
       Projects

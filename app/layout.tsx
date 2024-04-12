@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Syne } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/Components/Navbar'
+import { Analytics } from "@vercel/analytics/react"
 
 
 const syne = Syne({ subsets: ['latin'], weight:['400','500','600','700','800'] })
@@ -26,6 +27,7 @@ export default function RootLayout({
         <div className='md:w-[80%]'>
 
         {children}
+        <Analytics />
         </div>
         
         </body>

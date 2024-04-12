@@ -131,8 +131,7 @@ planning so as to save money and time.
 
         <div className="md:mt-24 mt-12 ">
             <p className="text-4xl font-bold">Competitor analysis</p>
-            <p>Craft a user journey that seamlessly guides individuals through a personalized career quiz, understanding their unique aspirations
-and leading them to tailored results for their professional path</p>
+           
 <Image
           src="/Voyageur_Assets/Comp.png"
           height={2048}
@@ -145,11 +144,8 @@ and leading them to tailored results for their professional path</p>
 
 
         <div className=" md:mt-24 mt-12 ">
-        <p className="font-bold text-4xl mb-8">User Persona</p>
-        <p>
-        Write the key tasks that your users can do by regarding your study. Ensure your user persona contains the key tasks that your
-users can do by regarding your study, users’ priorities, Users’ pain points
-        </p>
+        <p className="font-bold text-4xl ">User Persona</p>
+       
 
         <div className="flex">
         <Image
@@ -157,7 +153,7 @@ users can do by regarding your study, users’ priorities, Users’ pain points
           height={2048}
           width={2048}
           alt=""
-          className="p-6 lg:w-[60%] mx-auto lg:mt-12 mt-6"
+          className="p-6 lg:w-[60%] mx-auto lg:mt-6 mt-4"
         />
         </div>
       </div>
@@ -206,14 +202,11 @@ features to easily discover and connect with fellow travellers, creating a vibra
 
       <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">Information Architecture</p>
-        <p>
-        Shape an information architecture that elegantly structures the personalised career quiz, ensuring an intuitive journey through
-questions, results, and resources.
-        </p>
+        
         <Image
           src="/Voyageur_Assets/ia group.png"
-          height={2048}
-          width={2048}
+          height={4000}
+          width={4000}
           alt=""
           className="p-6 w-[60%]  mt-12 mx-auto"
         />
@@ -221,12 +214,11 @@ questions, results, and resources.
 
       <div className="md:mt-24 mt-12">
         <p className="text-4xl font-bold mb-6">User Flow</p>
-        <p>Optimize the user flow of the personalized career quiz, providing a clear and gradual progression from question to question,
-fostering a smooth and insightful journey</p>
+        
 <Image
-          src="/Voyageur_Assets/uflow.png"
-          height={4096}
-          width={4096}
+          src="/Voyageur_Assets/userf.png"
+          height={2000}
+          width={2000}
           alt=""
           className="p-2 mx-auto mt-12"
         />
@@ -254,11 +246,11 @@ give the product an exciting feel
           alt=""
           className="p-2 mx-auto mt-12"
         />
-      <p>High FIdelity Design</p>
+      
       <Image
-          src="/Voyageur_Assets/2.png"
-          height={4096}
-          width={4096}
+          src="/Voyageur_Assets/2new.png"
+          height={8000}
+          width={8000}
           alt=""
           className="p-2 mx-auto mt-12"
         />

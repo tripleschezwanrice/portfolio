@@ -306,7 +306,7 @@ const page = () => {
           through questions, results, and resources
         </p>
         <Image
-            src="/Vritti_Assets/vvv1.png"
+            src="/Vritti_Assets/vvv1_new.png"
             height={4096}
           width={4096}
           alt=""
@@ -318,7 +318,7 @@ const page = () => {
         <p>Crafting a user journey that seamlessly guides individuals through a personalized career quiz, understanding their unique
 aspirations and leading them to tailored results for their professional path</p>
         <Image
-             src="/Vritti_Assets/vvv2.png"
+             src="/Vritti_Assets/vvv2_new.png"
              height={4096}
            width={4096}
            alt=""
@@ -330,7 +330,7 @@ aspirations and leading them to tailored results for their professional path</p>
         <p>Optimizing the user flow of the personalised career quiz, providing a clear and gradual progression from question to question,
 fostering a smooth and insightful journey</p>
         <Image
-              src="/Vritti_Assets/vvv3.png"
+              src="/Vritti_Assets/vvv3_new.png"
               height={4096}
             width={4096}
             alt=""

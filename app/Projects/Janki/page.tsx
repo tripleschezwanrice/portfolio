@@ -88,6 +88,33 @@ const page = () => {
         alt=""
         className=""
         />
+         <Image
+        src="/Janki_Assets/1.png"
+        height={4000
+        }
+        width={4000
+        }
+        alt=""
+        className=""
+        />
+         <Image
+        src="/Janki_Assets/2.png"
+        height={4000
+        }
+        width={4000
+        }
+        alt=""
+        className=""
+        />
+         <Image
+        src="/Janki_Assets/3.png"
+        height={4000
+        }
+        width={4000
+        }
+        alt=""
+        className=""
+        />
       </div>
       
 

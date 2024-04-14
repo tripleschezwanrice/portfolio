@@ -221,7 +221,7 @@ users can do by regarding your study, users priorities, Users' pain points
 
         <div className="flex">
         <Image
-          src="/Voyageur_Assets/Vicky.png"
+          src="/Akasa_Assets/persona.png"
           height={2048}
           width={2048}
           alt=""
@@ -279,7 +279,7 @@ insights, efficient tracking and logging of orders and inventory, and the prospe
 for an enhanced and user-friendly experience. The user journey map aims to spotlight areas in the journey for positive
 refinements and improved user satisfaction.</p>
         <Image
-          src="/Akasa_Assets/User Journey.png"
+          src="/Akasa_Assets/ujourney.png"
           height={2040}
           width={2040}
           alt=""
@@ -294,7 +294,7 @@ refinements and improved user satisfaction.</p>
 insights, finances, order and product information.
         </p>
         <Image
-          src="/Akasa_Assets/ia group.png"
+          src="/Akasa_Assets/ia.png"
           height={2040}
           width={2040}
           alt=""
@@ -307,7 +307,7 @@ insights, finances, order and product information.
         <p>Envisioning the app's user flow to streamline task completion through improved findability, memorability, and usability:
 </p>
         <Image
-          src="/Akasa_Assets/userflow.png"
+          src="/Akasa_Assets/uflow.png"
           height={2040}
           width={2040}
           alt=""
@@ -345,7 +345,7 @@ the product an exciting feel.
         className="col-span-4 w-full"
       />
       <Image
-        src="/Akasa_Assets/1.png"
+        src="/Akasa_Assets/1new.png"
         height={2040}
         width={2040}
         alt=""

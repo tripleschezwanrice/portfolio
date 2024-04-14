@@ -45,7 +45,7 @@ const page = () => {
         </div>
         </div>
         </div>
-        <div className="lg:h-screen overflow-hidden"><Image src="/Spell_Hut_Assets/Spell-Footer.png" height={2080} width={2080} alt="" /></div>
+        <div className=" overflow-hidden"><Image src="/Spell_Hut_Assets/spellfooter.png" height={2080} width={2080} alt="" /></div>
         </div>
   )
 }

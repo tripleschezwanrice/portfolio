@@ -44,7 +44,7 @@ Research, Wireframing, Prototyping</p>
         </div>
         </div>
         </div>
-        <div className="lg:h-screen overflow-hidden"><Image src="/Spell_Hut_Assets/Habit-Footer.png" height={2080} width={2080} alt="" /></div>
+        <div className=" overflow-hidden"><Image src="/Spell_Hut_Assets/habitfooter.png" height={2080} width={2080} alt="" /></div>
         </div>
   )
 }

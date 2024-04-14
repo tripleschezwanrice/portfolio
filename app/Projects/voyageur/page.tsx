@@ -164,11 +164,11 @@ planning so as to save money and time.
         <ul className=" mt-8 gap-3 flex flex-col">
           <li>
           <strong>1. Fragmented User Experience:</strong> Travellers expressed frustration with juggling multiple apps for different aspects of their
-journeyq
+journey.
           </li>
           <li>
          <strong> 2. Desire for Comprehensive Solutions:</strong> Users indicated a strong preference for an all in one platform that simplifies the entire
-travel processq
+travel process.
           </li>
           <li>
           <strong>3. Social Connectivity:</strong> There was a opportunity for features that facilitate connections with fellow travellers for shared

@@ -19,12 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-    <body className={`${syne.className}  md:flex font-bold`}>
-    <main className=' md:w-[20%]'>
+    <body className={`${syne.className}  lg:flex font-bold`}>
+    <main className=' lg:w-[20%]'>
       <Navbar/>
     </main>
 
-        <div className='md:w-[80%]'>
+        <div className='lg:w-[80%]'>
 
         {children}
         <Analytics />

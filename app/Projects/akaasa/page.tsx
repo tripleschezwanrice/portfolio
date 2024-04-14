@@ -332,7 +332,7 @@ the product an exciting feel.
       <p className="py-4 font-bold">Splash Animations</p>
       
       <video id="video" loop muted autoPlay playsInline className="w-[360px] mx-auto">
-        <source src="/Akasa_Assets/AAKASA.mov" type="video/mp4" className="m-4"/>
+        <source src="/Akasa_Assets/AKASA.mp4" type="video/mp4" className="m-4"/>
         Your browser does not support the video tag.
     </video>
      

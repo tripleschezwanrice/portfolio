@@ -24,8 +24,8 @@ export default function SideNav() {
   };
 
   return (
-    <div className="fixed z-[9999] md:w-[20%] w-full flex md:h-screen md:flex-col md:py-8  md:my-auto mx-auto justify-between md:p-4 p-8 lg:text-lg bg-transparent md:bg-black">
-      <div className="flex-col gap-2 md:flex hidden">
+    <div className="fixed z-[9999] lg:w-[20%] w-full flex lg:h-screen lg:flex-col lg:py-8  lg:my-auto mx-auto justify-between lg:p-4 p-8 lg:text-lg bg-transparent lg:bg-black">
+      <div className="flex-col gap-2 lg:flex hidden">
         <Link
           href="/"
           className={clsx(    
@@ -94,7 +94,7 @@ export default function SideNav() {
         </Link>
       </div>
 
-      <div className="hidden md:flex flex-col gap-4 text-gray-400 text-md">
+      <div className="hidden lg:flex flex-col gap-4 text-gray-400 text-lg">
         <Link
           href="https://www.linkedin.com/in/ananya-singh-95bb83242/"
           target="_blank"
@@ -122,7 +122,7 @@ export default function SideNav() {
         </a>
       </div>
 
-      <div className="md:hidden flex">
+      <div className="lg:hidden flex">
         <Link href="/">
         
   <HomeIcon className="w-8" />
@@ -131,7 +131,7 @@ export default function SideNav() {
         </Link>
       </div>
 
-      <div className="md:hidden flex">
+      <div className="lg:hidden flex">
         {toggle ? (
           <Bars3Icon className="w-8" onClick={() => handleToggle()} />
         ) : (
@@ -140,7 +140,7 @@ export default function SideNav() {
       </div>
 
       <div
-        className={`fixed z-50 h-screen  md:hidden top-0 transition-all duration-300 ease-in-out  ${
+        className={`fixed z-50 h-screen  lg:hidden top-0 transition-all duration-300 ease-in-out  ${
           toggle ? "-right-full" : "right-0"
         }  w-[60vw]  bg-black flex flex-col justify-between`}
       >
@@ -159,7 +159,7 @@ export default function SideNav() {
                   toggle ? "opacity-0" : "opacity-100"
                 } transition-all  p-2 flex gap-2 border-2 box-border delay-[250ms] border-transparent items-center`,
                 {
-                  "border-2 box-border rounded-md border-white":
+                  "border-2 box-border rounded-lg border-white":
                     pathname === "/",
                 }
               )}
@@ -178,7 +178,7 @@ export default function SideNav() {
                   toggle ? "opacity-0" : "opacity-100"
                 } transition-all delay-[250ms] p-2 flex gap-2 border-2 box-border border-transparent items-center`,
                 {
-                  "border-2 box-border rounded-md border-white":
+                  "border-2 box-border rounded-lg border-white":
                     pathname === "/Projects",
                 }
               )}
@@ -197,7 +197,7 @@ export default function SideNav() {
                   toggle ? "opacity-0" : "opacity-100"
                 } transition-all delay-[250ms] p-2 flex gap-2 border-2 box-border border-transparent items-center`,
                 {
-                  " border-2 box-border rounded-md border-white":
+                  " border-2 box-border rounded-lg border-white":
                     pathname === "/Resume",
                 }
               )}
@@ -215,7 +215,7 @@ export default function SideNav() {
                   toggle ? "opacity-0" : "opacity-100"
                 } transition-all delay-[250ms] p-2 flex gap-2 border-2 box-border border-transparent items-center`,
                 {
-                  "border-2 box-border rounded-md border-white":
+                  "border-2 box-border rounded-lg border-white":
                     pathname === "/Contact",
                 }
               )}

@@ -136,6 +136,49 @@ video {
 
 
 
+
+.btn-17 {
+  background: #00000000;
+  color: white;
+  border: white solid 2px;
+  z-index: 1;
+  position: relative;
+} 
+
+.btn-17:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.btn-17:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.btn-17:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 .btn-8 {
   background-color: #f0ecfc;
 background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);

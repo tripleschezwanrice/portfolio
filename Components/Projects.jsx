@@ -12,7 +12,7 @@ const Projects = () => {
   
 
   return (
-   <div className="md:p-12 p-4 bg-black md:pt-6 pt-24">
+   <div className="lg:p-12 p-4 bg-black lg:pt-6 pt-24">
    
   
           <div className="row-span-2 sm:row-span-1 grid sm:grid-cols-10">

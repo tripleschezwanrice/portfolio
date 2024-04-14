@@ -24,7 +24,7 @@ const page = () => {
         <p className="text-xl">Ananya Singh</p>
         <p className="text-6xl font-bold my-4">Vritti</p>
         <p>
-          Project overview: A web platform to helpn women from rural communities
+          Project overview: A web platform to help women from rural communities
           in career counselling and advancement
         </p>
       </div>

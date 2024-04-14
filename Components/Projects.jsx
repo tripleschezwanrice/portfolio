@@ -12,8 +12,9 @@ const Projects = () => {
   
 
   return (
+   <div className="md:p-12 p-4 bg-black md:pt-6 pt-24">
    
-      <div className="grid sm:grid-rows-4 grid-rows-8  bg-black px-12 py-4 md:pt-4 pt-12">
+  
           <div className="row-span-2 sm:row-span-1 grid sm:grid-cols-10">
           <Link href="/Projects/voyageur" className="sm:col-span-5 row-span-1 rounded-md text-center flex flex-col w-full overflow-hidden p-4">
       {/* Apply styles to the link */}
@@ -68,9 +69,9 @@ const Projects = () => {
     </Link>
           </div>
 
-      </div>
+     
 
-    
+      </div>
   );
 };
 

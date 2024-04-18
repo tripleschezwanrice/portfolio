@@ -30,7 +30,7 @@ const Projects = () => {
       
 
           <div className="row-span-2 sm:row-span-1 grid sm:grid-cols-10">
-          <a href="https://drive.google.com/file/d/1-x2daPjWM0fRv9BQsFGCEslYhDzHXQD3/view"  target="_blank" className="sm:col-span-5 row-span-1 rounded-md text-center  w-full overflow-hidden p-4 flex flex-col">
+          <a href="https://drive.google.com/file/d/1g1OsExxyMaUSrf1manQl5F_7sI7sFdzo/view"  target="_blank" className="sm:col-span-5 row-span-1 rounded-md text-center  w-full overflow-hidden p-4 flex flex-col">
       {/* Apply styles to the a */}
       <Image src="/Thumbnail/olx.png" width={2000} height={2000} alt="" className="object-cover" />
       <p className={`${syne.className} font-regular w-fit bg-[#ffffff34] rounded-full text-sm pl-[8px] pr-[4px] m-2`}>Research Project🟡</p>
